@@ -1,69 +1,54 @@
-# React + TypeScript + Vite
+# 📖 Sobre o Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido com o objetivo de aprimorar minhas habilidades em React, TypeScript e Tailwind CSS, aprofundando o conhecimento no consumo de APIs RESTful. A aplicação utiliza a API pública da Kitsu para buscar e exibir informações sobre mangás, como títulos, sinopses e imagens.
 
-Currently, two official plugins are available:
+Através do uso de React Hooks (como useState e useEffect) junto com tipagens fortes do TypeScript, foi possível criar uma aplicação tipada, modular e com código mais seguro. A estilização foi feita com Tailwind CSS, garantindo responsividade e um design moderno e eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🔧 Stacks e Ferramentas Utilizadas
 
-## Expanding the ESLint configuration
+React — Biblioteca para construção de interfaces
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+TypeScript — Superset do JavaScript com tipagem estática
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Tailwind CSS — Framework utilitário para estilização
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Fetch API — Requisições assíncronas à API da Kitsu
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Kitsu API — Fonte de dados sobre mangás e animes
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# 🎯 Objetivos Alcançados
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Prática em consumo e manipulação de dados de APIs públicas
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Aplicação dos conceitos de tipagem estática com TypeScript
+
+Compreensão e uso eficiente de hooks do React
+
+Desenvolvimento de interfaces limpas e responsivas com Tailwind CSS
+
+Organização e componentização de código com boas práticas
+
+## Deploy na Vercel - https://api-mangas.vercel.app/
+
+<img border="0" data-original-height="1080" data-original-width="1920" height="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi12kbk0akABbb_qrucPI63jR1opvp6O4pU-Jb95i2YnvYEV-ldba1zEgu7fTf9XWIr_lRfpj7ptA4bsy1MmYVi9jmaYrqWX28xhOkTHJ6xBlOf2SyV58UehBMR07nFWbiQkajR0rRp4RpKvvH3x9Ckr0kFiLtqdRGAQQnyh_6wcyHQ9_3w4manfmIaSum/s1860/manga-api.png" width="1280" />
+
+## ⚙️ Instalação
+
+git clone https://github.com/Whofelisberto/api-mangas.git
+</br>
+cd api-mangas
+
+## 📦 2. Instale as dependências
+
+npm install 
+## ou
+yarn install
+
+##  3. Execute o projeto
+
+npm run dev
+## ou
+yarn dev
+
+
+
