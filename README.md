@@ -1,6 +1,6 @@
 # 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de aprimorar minhas habilidades em React, TypeScript e Tailwind CSS, aprofundando o conhecimento no consumo de APIs RESTful. A aplicação utiliza a API pública da Kitsu para buscar e exibir informações sobre mangás, como títulos, sinopses e imagens.
+Este projeto foi desenvolvido com o objetivo de aprimorar minhas habilidades em React, TypeScript, aprofundando o conhecimento no consumo de APIs RESTful. A aplicação utiliza a API pública da Kitsu para buscar e exibir informações sobre mangás, como títulos, sinopses e imagens.
 
 Através do uso de React Hooks (como useState e useEffect) junto com tipagens fortes do TypeScript, foi possível criar uma aplicação tipada, modular e com código mais seguro. A estilização foi feita com Tailwind CSS, garantindo responsividade e um design moderno e eficiente.
 
