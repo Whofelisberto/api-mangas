@@ -1,4 +1,4 @@
-# 📖 Sobre o Projeto
+# API Mangas
 
 Este projeto foi desenvolvido com o objetivo de aprimorar minhas habilidades em React, TypeScript, aprofundando o conhecimento no consumo de APIs RESTful. A aplicação utiliza a API pública da Kitsu para buscar e exibir informações sobre mangás, como títulos, sinopses e imagens.
 
